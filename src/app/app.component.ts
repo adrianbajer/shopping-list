@@ -5,11 +5,4 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  selectedSection: string = 'recipes';
-
-  onLinkClicked(sectionName: string) {
-    this.selectedSection = sectionName;
-  }
-
-}
+export class AppComponent { }
